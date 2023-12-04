@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: my_project
+    database: analytics  
+    schema: raw  
+    tables:
+      - name: nation
+      - name: customer
+      - name: region
+      - name: orders
+
+  - name: stripe
+    tables:
+      - name: payments
